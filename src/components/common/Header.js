@@ -14,8 +14,8 @@ const Header = () => {
         About
       </NavLink>
 
-      <NavLink className="nav-link" to="/menus" activeStyle={activeStyle}>
-        Menus
+      <NavLink className="nav-link" to="/meals" activeStyle={activeStyle}>
+        Meals
       </NavLink>
     </nav>
   );

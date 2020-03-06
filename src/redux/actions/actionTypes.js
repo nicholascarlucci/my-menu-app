@@ -1,1 +1,2 @@
-export const CREATE_MENU = "CREATE_MENU";
+export const CREATE_MEAL = "CREATE_MEAL";
+export const LOAD_MEALS_SUCCESS = "LOAD_MEALS_SUCCESS";

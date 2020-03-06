@@ -1,11 +1,10 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { Provider } from "react-redux";
 import HomePage from "./home/HomePage";
 import AboutPage from "./about/AboutPage";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
-import MenusPage from "./menus/MenusPage";
+import MealsPage from "./meals/MealsPage";
 
 const App = () => (
   <div className="container-fluid">
@@ -13,7 +12,7 @@ const App = () => (
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/menus" component={MenusPage} />
+      <Route path="/meals" component={MealsPage} />
       <Route component={PageNotFound} />
     </Switch>
   </div>
